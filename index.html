@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="backgroud">
+        <h1>ĐĂNG NHẬP</h1>
+        <FOrm method="post" name="frDangKy">
+            <div class="fr__tenDangNhap">
+                <input type="text" placeholder="Tên đăng nhập" name="tenDangNhap">
+            </div>
+            <div class="fr__matKhau">
+                <input type="password" name="matKhau" placeholder="Mật khẩu">
+            </div>
+            <div class="fr__nhapLaiMatKhau">
+                <input type="password" name="nhapLaiMatKhau" placeholder="Nhập lại mật khẩu">
+            </div>
+            <div class="dieuKhoang">
+                <input type="checkbox" name="dieuKhoang"><label for="dieuKhoang"><i><span>Đồng ý</span> với điều khoảng
+                        của chúng
+                        tôi</i></label>
+            </div>
+            <div class="fr__button">
+                <input type="button" name="dangNhap" value="Đăng nhập" onclick="kiemTra()">
+                <input type="reset" value="Bỏ qua">
+            </div>
+
+        </FOrm>
+    </div>
+</body>
+
+</html>
